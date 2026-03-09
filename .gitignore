@@ -205,3 +205,66 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset (large files)
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# Images (optional if dataset folder already ignored)
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.bmp
+
+# Model checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Output files
+outputs/
+results/
+predictions/
+
+# Grad-CAM visualizations
+gradcam/
+visualizations/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
