@@ -28,7 +28,7 @@ pip install torch torchvision timm scikit-learn pandas numpy matplotlib seaborn 
 
 Ovaj projekat koristi duboko učenje (Deep Learning) za automatizovanu klasifikaciju ultrazvučnih snimaka štitne žlezde u dve kategorije (benigni/maligni). Fokus je na poređenju standardnih CNN arhitektura sa modernim pristupima poput Transfer Learning-a i AutoML-a.
 
-### Google Colab & GPU Akceleracija
+### Google Colab & GPU Ubrzanje
 
 Projekat je primarno razvijen i optimizovan za rad u **Google Colab** okruženju. S obzirom na kompleksnost modela kao što su *ConvNeXt* i *DenseNet*, korišćenje grafičkog procesora (GPU) je neophodno za efikasno treniranje.
 
